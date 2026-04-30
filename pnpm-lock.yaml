@@ -12,11 +12,11 @@ importers:
         specifier: ^3.7.4
         version: 3.7.4(react@19.2.5)
       '@sanity/sdk':
-        specifier: https://pkg.pr.new/@sanity/sdk@821
-        version: https://pkg.pr.new/@sanity/sdk@821(@types/react@19.2.14)(react@19.2.5)(use-sync-external-store@1.6.0(react@19.2.5))(xstate@5.31.0)
+        specifier: https://pkg.pr.new/@sanity/sdk@825
+        version: https://pkg.pr.new/@sanity/sdk@825(@types/react@19.2.14)(react@19.2.5)(use-sync-external-store@1.6.0(react@19.2.5))(xstate@5.31.0)
       '@sanity/sdk-react':
-        specifier: https://pkg.pr.new/@sanity/sdk-react@821
-        version: https://pkg.pr.new/@sanity/sdk-react@821(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(use-sync-external-store@1.6.0(react@19.2.5))(xstate@5.31.0)
+        specifier: https://pkg.pr.new/@sanity/sdk-react@825
+        version: https://pkg.pr.new/@sanity/sdk-react@825(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(use-sync-external-store@1.6.0(react@19.2.5))(xstate@5.31.0)
       '@sanity/ui':
         specifier: ^3.1.14
         version: 3.1.14(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.5(react@19.2.5))(react-is@19.2.5)(react@19.2.5)(styled-components@6.4.1(react-dom@19.2.5(react@19.2.5))(react@19.2.5))
@@ -1942,8 +1942,8 @@ packages:
   '@sanity/schema@5.23.0':
     resolution: {integrity: sha512-deHXjUvj9kp+xTHfaKt+d31+43lYl5/XteONEixCSGcuMFYIoRZTKScAfa4BvuLpW7WOdeGnj+gEyf4dnrSERQ==}
 
-  '@sanity/sdk-react@https://pkg.pr.new/@sanity/sdk-react@821':
-    resolution: {tarball: https://pkg.pr.new/@sanity/sdk-react@821}
+  '@sanity/sdk-react@https://pkg.pr.new/@sanity/sdk-react@825':
+    resolution: {integrity: sha512-YdK+MU6NEaVA+RPRwYDReY6XJQ04Xi0MpcM/Et3c3UCWdcKBHl9SM7Z6dkn6Bp+jfr6SVojcF/6pWoajcO8TCw==, tarball: https://pkg.pr.new/@sanity/sdk-react@825}
     version: 2.9.0
     engines: {node: '>=20.19'}
     peerDependencies:
@@ -1954,13 +1954,13 @@ packages:
     resolution: {integrity: sha512-o4cAok0aJbyVa6EpzDp37e64CsSsmba4uYg3WGSoM8Txy62G6Qtpw8v0FvPJjQ5ZkKYUilx+XTp1uUGif+FraA==}
     engines: {node: '>=20.19'}
 
-  '@sanity/sdk@https://pkg.pr.new/@sanity/sdk@821':
-    resolution: {tarball: https://pkg.pr.new/@sanity/sdk@821}
+  '@sanity/sdk@https://pkg.pr.new/@sanity/sdk@825':
+    resolution: {integrity: sha512-UWLOHqQp+q4P8nWJSggbqReYZRv2a6Q3rVYO+OvEAdA0cAkmLF4WuTdt3o8geOhNWULGDKdPOdxvkeoFUT/fhA==, tarball: https://pkg.pr.new/@sanity/sdk@825}
     version: 2.9.0
     engines: {node: '>=20.19'}
 
-  '@sanity/sdk@https://pkg.pr.new/sanity-io/sdk/@sanity/sdk@fb5616d':
-    resolution: {tarball: https://pkg.pr.new/sanity-io/sdk/@sanity/sdk@fb5616d}
+  '@sanity/sdk@https://pkg.pr.new/sanity-io/sdk/@sanity/sdk@4e614e1':
+    resolution: {integrity: sha512-UWLOHqQp+q4P8nWJSggbqReYZRv2a6Q3rVYO+OvEAdA0cAkmLF4WuTdt3o8geOhNWULGDKdPOdxvkeoFUT/fhA==, tarball: https://pkg.pr.new/sanity-io/sdk/@sanity/sdk@4e614e1}
     version: 2.9.0
     engines: {node: '>=20.19'}
 
@@ -7502,11 +7502,11 @@ snapshots:
       - '@types/react'
       - supports-color
 
-  '@sanity/sdk-react@https://pkg.pr.new/@sanity/sdk-react@821(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(use-sync-external-store@1.6.0(react@19.2.5))(xstate@5.31.0)':
+  '@sanity/sdk-react@https://pkg.pr.new/@sanity/sdk-react@825(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(use-sync-external-store@1.6.0(react@19.2.5))(xstate@5.31.0)':
     dependencies:
       '@sanity/client': 7.22.0
       '@sanity/message-protocol': 0.18.2
-      '@sanity/sdk': https://pkg.pr.new/sanity-io/sdk/@sanity/sdk@fb5616d(@types/react@19.2.14)(react@19.2.5)(use-sync-external-store@1.6.0(react@19.2.5))(xstate@5.31.0)
+      '@sanity/sdk': https://pkg.pr.new/sanity-io/sdk/@sanity/sdk@4e614e1(@types/react@19.2.14)(react@19.2.5)(use-sync-external-store@1.6.0(react@19.2.5))(xstate@5.31.0)
       '@sanity/types': 5.23.0(@types/react@19.2.14)
       '@types/lodash-es': 4.17.12
       groq: 3.88.1-typegen-experimental.0
@@ -7551,7 +7551,7 @@ snapshots:
       - use-sync-external-store
       - xstate
 
-  '@sanity/sdk@https://pkg.pr.new/@sanity/sdk@821(@types/react@19.2.14)(react@19.2.5)(use-sync-external-store@1.6.0(react@19.2.5))(xstate@5.31.0)':
+  '@sanity/sdk@https://pkg.pr.new/@sanity/sdk@825(@types/react@19.2.14)(react@19.2.5)(use-sync-external-store@1.6.0(react@19.2.5))(xstate@5.31.0)':
     dependencies:
       '@sanity/bifur-client': 0.4.1
       '@sanity/client': 7.22.0
@@ -7579,7 +7579,7 @@ snapshots:
       - use-sync-external-store
       - xstate
 
-  '@sanity/sdk@https://pkg.pr.new/sanity-io/sdk/@sanity/sdk@fb5616d(@types/react@19.2.14)(react@19.2.5)(use-sync-external-store@1.6.0(react@19.2.5))(xstate@5.31.0)':
+  '@sanity/sdk@https://pkg.pr.new/sanity-io/sdk/@sanity/sdk@4e614e1(@types/react@19.2.14)(react@19.2.5)(use-sync-external-store@1.6.0(react@19.2.5))(xstate@5.31.0)':
     dependencies:
       '@sanity/bifur-client': 0.4.1
       '@sanity/client': 7.22.0

@@ -16,8 +16,8 @@
   ],
   "dependencies": {
     "@sanity/icons": "^3.7.4",
-    "@sanity/sdk": "https://pkg.pr.new/@sanity/sdk@821",
-    "@sanity/sdk-react": "https://pkg.pr.new/@sanity/sdk-react@821",
+    "@sanity/sdk": "https://pkg.pr.new/@sanity/sdk@825",
+    "@sanity/sdk-react": "https://pkg.pr.new/@sanity/sdk-react@825",
     "@sanity/ui": "^3.1.14",
     "@sanity/vision": "^5.14.0",
     "react": "^19.1",
